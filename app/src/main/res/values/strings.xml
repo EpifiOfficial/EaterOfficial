@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Eater</string>
+    <string-array name="randomizeTexts">
+        <item>Right Swipe for lunch idea</item>
+        <item>Left Swipe for dessert idea</item>
+    </string-array>
+</resources>

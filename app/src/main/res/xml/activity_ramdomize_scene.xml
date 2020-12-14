@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/SwipeRight"
+        motion:constraintSetStart="@id/start"
+        motion:duration="200"
+        android:id="@+id/SwipeRight">
+       <KeyFrameSet>
+       </KeyFrameSet>
+        <OnSwipe motion:dragDirection="dragRight" />
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/SwipeRight">
+        <Constraint
+            android:layout_height="150dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            motion:layout_constraintHorizontal_bias="0.823"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="150dp"
+            motion:layout_constraintTop_toBottomOf="@+id/textView"
+            android:id="@+id/btnEater" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@+id/SwipeLeft" >
+        <Constraint
+            android:layout_height="150dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="32dp"
+            motion:layout_constraintHorizontal_bias="0.176"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="150dp"
+            motion:layout_constraintTop_toBottomOf="@+id/textView"
+            android:id="@+id/btnEater" />
+    </ConstraintSet>
+    <Transition
+        android:id="@+id/SwipeLeft"
+        motion:constraintSetStart="@+id/start"
+        motion:constraintSetEnd="@+id/SwipeLeft"
+        motion:duration="200">
+        <OnSwipe motion:dragDirection="dragLeft" />
+    </Transition>
+</MotionScene>

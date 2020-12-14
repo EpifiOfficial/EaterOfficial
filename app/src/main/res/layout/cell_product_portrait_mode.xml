@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="2dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/CvProductIv"
+            android:layout_width="match_parent"
+            android:layout_height="214dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/background_rounded_top_corners"
+            >
+
+            <ImageView
+                android:id="@+id/IvProduct"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFEB3B"
+
+                />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/TvProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product name"
+            android:layout_below="@id/CvProductIv"
+            android:fontFamily="@font/nunito_sans_semibold"
+            android:textColor="#000000"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/TvProductPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100€"
+            android:textColor="#00836F"
+            android:textSize="16sp"
+            android:layout_below="@id/TvProductName"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/nunito_sans_bold"
+            />
+        <TextView
+            android:id="@+id/TvProductDesc"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore"
+            android:maxLines="3"
+            android:layout_below="@id/TvProductPrice"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:fontFamily="@font/nunito_sans"
+            android:textColor="#bdbdbd"
+            android:textSize="10sp"
+            android:layout_marginBottom="20dp"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

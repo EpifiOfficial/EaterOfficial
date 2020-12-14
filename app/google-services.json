@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "421221197811",
+    "firebase_url": "https://eaterrecetas.firebaseio.com",
+    "project_id": "eaterrecetas",
+    "storage_bucket": "eaterrecetas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421221197811:android:d3caaf7f8cb77dcd40d486",
+        "android_client_info": {
+          "package_name": "com.epifistudios.eater"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421221197811-83pi8c4dde523f00t5ddm6kebu4l8dpg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.epifistudios.eater",
+            "certificate_hash": "4515b8ebf0157200de49f82463855f9226eadb76"
+          }
+        },
+        {
+          "client_id": "421221197811-2s6opqcned76d6s6ob4121legdi11sjf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvhGt23Hh_C2Ki0vS_bAdFeMP6cc8YsLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421221197811-2s6opqcned76d6s6ob4121legdi11sjf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
